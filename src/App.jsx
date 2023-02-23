@@ -13,7 +13,7 @@ function App() {
       element:<Home/>,
     },
     {
-      path: "/Destination",
+      path: "/destination",
       element:<Destination/>,
     }
   ])
