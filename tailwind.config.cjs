@@ -13,7 +13,7 @@ module.exports = {
         'black':'#0B0D17'
       },
       fontFamily:{
-       'Barlow':"Barlow Condensed",
+       'Barlow':'Barlow',
        'Bellefair':'Bellefair',
       },
       fontSize:{

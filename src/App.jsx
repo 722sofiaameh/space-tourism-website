@@ -3,6 +3,7 @@ import React from "react";
 import {createBrowserRouter,
   RouterProvider,} from "react-router-dom";
 import Home from "./home";
+import Destination from "./destination";
   
 
 function App() {
@@ -10,7 +11,12 @@ function App() {
     {
       path: "/",
       element:<Home/>,
-    }])
+    },
+    {
+      path: "/Destination",
+      element:<Destination/>,
+    }
+  ])
   return (
     
     <div className="App">
