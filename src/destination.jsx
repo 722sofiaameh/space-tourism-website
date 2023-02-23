@@ -15,7 +15,7 @@ const Destination = () => {
     <img src={Moon} alt='img' className="mx-auto w-40 mt-10"/>
     
     <ul className="text-fontWhite text-xl flex justify-center items-center mt-8 gap-8 font-Barlow uppercase">
-        <Link className="active:border-b-4 border-white" href="/Destination">Moon</Link>
+        <Link className="active:border-b-4 border-white" href="/destination">Moon</Link>
         <Link className="/Mars">Mars</Link>
         <Link className="/Europa">Europa</Link>
         <Link>Titan</Link>

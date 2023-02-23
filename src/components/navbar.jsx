@@ -6,7 +6,7 @@ const Navbar = () =>
    let [open, setopen] = useState(false)
    const menus = [
       { name: "HOME",link:'/' },
-      { name: "DESTINATION",link:'/Destination' },
+      { name: "DESTINATION",link:'/destination' },
       { name: "CREW" },
       { name: "TECHNOLOGY" },
    ]
