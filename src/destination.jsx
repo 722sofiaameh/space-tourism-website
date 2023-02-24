@@ -9,7 +9,7 @@ const Destination = () => {
   const { name, images, description, distance, travel } = planets[value];
 
   return (
-    <div className="bg-[url('../src/assets/destination/background-destination-mobile.jpg')] h-screen bg-cover bg-no-repeat">
+    <div className="bg-[url('../public/assets/destination/background-destination-mobile.jpg')] h-screen bg-cover bg-no-repeat">
       <Navbar />
       <div className="p-4">
         <div className="flex text-white gap-4 items-center justify-center mt-4 font-Barlow uppercase text-xl">

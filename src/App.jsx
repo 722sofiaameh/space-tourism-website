@@ -5,6 +5,7 @@ import {createBrowserRouter,
 import Home from "./home";
 import Destination from "./destination";
 import Crew from "./crew";
+import Technology from "./technology";
   
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
     {
       path: "/crew",
       element:<Crew/>,
+    },
+    {
+      path: "/technology",
+      element:<Technology/>,
     },
   ])
   return (
