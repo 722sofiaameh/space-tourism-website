@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { destinations } from "../data.json";
 import Navbar from "./components/navbar";
-import { Link } from "react-router-dom";
 
 const Destination = () => {
   const [planets] = useState(destinations);
