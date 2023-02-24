@@ -2,16 +2,17 @@ import { useState } from "react"
 import Logo from '../assets/shared/logo.svg'
 import Hamburger from '../assets/shared/icon-hamburger.svg'
 import close from '../assets/shared/icon-close.svg'
+import { Link } from "react-router-dom"
 
 
 const Navbar = () =>
 {
    let [open, setopen] = useState(false)
    const menus = [
-      { name: "HOME",link:'/' },
-      { name: "DESTINATION",link:'/destination' },
-      { name: "CREW" },
-      { name: "TECHNOLOGY" },
+      { name: "HOME",link:'/'},
+      { name: "DESTINATION",link:'/destination'},
+      { name: "CREW",link:'/crew'},
+      { name: "TECHNOLOGY",link:'/technology'},
    ]
    return (
       <nav className="flex items-center justify-between pt-5">
@@ -21,8 +22,8 @@ const Navbar = () =>
             {
                menus.map((menu, index) => (
                   <li key={index} className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
-                     <a className="text-white cursor-pointer font-Barlow font-normal text-sm inline-block md:py-5 py-3" href={menu.link}>
-                        <span className="font-bold mr-1.5">0{index}</span>  {menu.name}</a>
+                     <Link className="text-white cursor-pointer font-Barlow font-normal text-sm inline-block md:py-5 py-3" to={menu.link}>
+                        <span className="font-bold mr-1.5">0{index}</span>  {menu.name}</Link>
                   </li>
                ))
             }

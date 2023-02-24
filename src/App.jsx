@@ -4,6 +4,7 @@ import {createBrowserRouter,
   RouterProvider,} from "react-router-dom";
 import Home from "./home";
 import Destination from "./destination";
+import Crew from "./crew";
   
 
 function App() {
@@ -15,7 +16,11 @@ function App() {
     {
       path: "/destination",
       element:<Destination/>,
-    }
+    },
+    {
+      path: "/crew",
+      element:<Crew/>,
+    },
   ])
   return (
     
