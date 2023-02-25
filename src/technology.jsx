@@ -26,7 +26,7 @@ const Technology = () => {
                 ))}
             </div>
 
-            <h1 className="text-center uppercase text-fontWhite font-Barlow mt-4 text-lg">The Terminology...</h1>
+            <h1 className="text-center uppercase text-fontWhite font-Barlow mt-2 text-lg">The Terminology...</h1>
             <div className="text-center p-4">
                 <h1 className="text-white font-Bellefair text-3xl">{name}</h1>
                 <p className="text-fontWhite text-xl">{description}</p>

@@ -17,7 +17,7 @@ const Destination = () => {
           <h1 className="">Pick Your Destination</h1>
         </div>
         <img
-          src={images.png}
+          src={images.portrait}
           alt={name}
           title={name}
           className="mx-auto w-40 mt-10"
