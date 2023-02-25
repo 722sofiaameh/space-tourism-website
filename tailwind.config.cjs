@@ -11,7 +11,8 @@ module.exports = {
         'fontWhite':'#D0D6F9',
         'white':'#FFFFFF',
         'black':'#0B0D17',
-        'divide':'#383B4B'
+        'divide':'#383B4B',
+        'blue':'#0B0D17'
       },
       fontFamily:{
        'Barlow':'Barlow',
