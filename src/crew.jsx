@@ -1,8 +1,9 @@
 import Navbar from "./components/navbar";
 import { useState } from "react";
-import { crew } from "../data.json";
+import { CrewData } from "./data";
+
 const Crew = () => {
-  const [Team] = useState(crew);
+  const [Team] = useState(CrewData);
   const [value, setValue] = useState(0);
 
   const { name, images, role, bio } = Team[value];
@@ -13,7 +14,7 @@ const Crew = () => {
         <h1 className="opacity-[0.25]">02</h1>
         <h1 className="">Meet your crew</h1>
       </div>
-      <img src={images.png} alt="img" className="mx-auto w-60 mt-8" />
+      <img src={images.png} alt="img" className="mx-auto w-60 h-50 mt-8" />
       <div className="flex justify-center items-center uppercase">
         <div className="h-[3px] w-[320px] bg-divide"> </div>
       </div>

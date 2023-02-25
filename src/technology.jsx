@@ -1,12 +1,12 @@
 import Navbar from "./components/navbar";
-import {technology} from "../data.json"
 import { useState } from "react";
+import { TechnologyData } from "./data";
 
 const Technology = () => {
-    const [Technology] = useState(technology);
+    const [Technology] = useState(TechnologyData);
     const [value, setValue] = useState(0);
 
-    const {id,images,name,description} = Technology[value];
+    const {images,name,description} = Technology[value];
 
     return (
         <div className="bg-[url('../public/assets/technology/background-technology-mobile.jpg')] h-screen bg-cover bg-no-repeat">

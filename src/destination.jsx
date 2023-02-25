@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { destinations } from "../data.json";
 import Navbar from "./components/navbar";
+import { destinations } from "./data";
 
 const Destination = () => {
   const [planets] = useState(destinations);
