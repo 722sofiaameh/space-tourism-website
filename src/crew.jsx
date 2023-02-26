@@ -17,7 +17,7 @@ const Crew = () => {
         </div>
         <div className="md:flex md:order-1">
           <div>
-            <img src={images.png} alt="img" className="mx-auto w-60 h-50 mt-2" />
+            <img src={images.png} alt="img" className="mx-auto w-40 h-50" />
             <div className="flex justify-center items-center uppercase">
               <div className="h-[3px] w-[320px] bg-divide"> </div>
             </div>
