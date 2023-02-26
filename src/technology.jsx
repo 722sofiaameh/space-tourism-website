@@ -9,7 +9,7 @@ const Technology = () => {
     const {images,name,description} = Technology[value];
 
     return (
-        <div className="bg-[url('../public/assets/technology/background-technology-mobile.jpg')] h-screen bg-cover bg-no-repeat">
+        <div className="bg-[url('../public/assets/technology/background-technology-mobile.jpg')] md:bg-[url('../public/assets/technology/background-technology-desktop.jpg')] h-screen bg-cover bg-no-repeat">
         <Navbar/>
         <div className="mt-4">
             <div className="flex justify-center items-center gap-5 text-xl">
