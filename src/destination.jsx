@@ -12,6 +12,7 @@ const Destination = () => {
     <div className="bg-[url('../public/assets/destination/background-destination-mobile.jpg')] md:bg-[url('../public/assets/destination/background-destination-desktop.jpg')] bg-cover bg-no-repeat h-screen md:h-screen">
       <div className="container mx-auto
       ">
+        
         <Navbar />
         <div className="p-4">
           <div className="md:flex md:mt-20">
